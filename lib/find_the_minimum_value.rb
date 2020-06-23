@@ -5,6 +5,7 @@ def find_min_value(array)
   array.each do |ele|
     if ele < min_value
       min_value = ele
+      return min_value
     end
   end
 end
