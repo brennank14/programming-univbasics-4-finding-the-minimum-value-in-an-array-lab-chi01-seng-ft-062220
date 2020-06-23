@@ -5,7 +5,7 @@ def find_min_value(array)
     min = array[0]
     if ele < min
       ele = min
+      binding.pry
     end
   end
-  min
 end
