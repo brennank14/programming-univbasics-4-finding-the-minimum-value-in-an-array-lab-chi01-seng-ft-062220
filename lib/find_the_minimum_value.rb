@@ -1,7 +1,7 @@
 require 'pry'
 
 def find_min_value(array)
-  array.find |ele| do
+  array.find do |ele| 
     binding.pry
     if ele < min
       ele = min
