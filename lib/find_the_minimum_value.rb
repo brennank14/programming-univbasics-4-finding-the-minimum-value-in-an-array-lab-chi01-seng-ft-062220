@@ -7,4 +7,5 @@ def find_min_value(array)
       min = ele
     end
   end
+  min
 end
